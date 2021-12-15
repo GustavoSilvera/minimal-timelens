@@ -13,11 +13,10 @@ The proposal (pdf) can be found [here](writeup/proposal.pdf)
 The final report (pdf) can be found [here](writeup/final-report.pdf)
 
 ## Examples
-| 15hz                                   | 30hz                                   |
-| -------------------------------------- | -------------------------------------- |
-| ![totoro_15](assets/totoro_15.gif)     | ![totoro_30](assets/totoro_30.gif)     |
-| ![totoro_1_15](assets/totoro_1_15.gif) | ![totoro_1_30](assets/totoro_1_30.gif) |
-| ![tennis_15](assets/tennis_15.gif)     | ![tennis_30](assets/tennis_30.gif)     |
+(Left is raw source at 15hz, right is interpolated with 1 frame inserted at 30hz)
+![totoro1](assets/totoro1.gif)
+![totoro2](assets/totoro2.gif)
+![tennis_spin](assets/tennis_spin.gif)
 
 ## Installation
 Note that the primary dependencies required for this implementation are [`numpy`](https://numpy.org/) and [`pytorch`](https://pytorch.org/get-started/locally/).
